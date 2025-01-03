@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag</title>
+
+</head>
+
+<body>
+    <h3>Basic Form</h3>
+    <hr>
+    <br><br>
+
+    <form action="">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" maxlength="20" required><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" placeholder="Enter your age" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your mail" required><br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" required><br>
+        <label for="Dob">DOB:</label>
+        <input type="date" id="Dob" required><br>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" min="0" max="99" value="1" required><br>
+
+        <label for="gender">Gender:</label>
+
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender">
+
+        <label for="female">Female</label>
+        <!-- <input type="radio" id="female" name="gender"> -->
+        <input type="radio" id="female" name="gender">
+
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender">
+        <br>
+        <label for="payment">Payment:</label>
+        <select name="" id="payment">
+            <option value="Gpay">Gpay</option>
+            <option value="Phonepay">Phonepay</option>
+            <option value="Paytm">Paytm</option>
+
+        </select>
+        <br>
+
+        <label for="checkbox">Check</label>
+        <input type="checkbox" id="checkbox">
+
+        <br>
+        <!-- <input type="text" rows="5" cols="30"> -->
+        <label for="comment">Comment:</label>
+         <textarea name="" id="comment" rows="5" cols="25">
+
+         </textarea><br>
+
+         <label for="file">Uplode file:</label>
+         <input type="file" id="file" accept="image/png, image/jpg, image/jpeg"><br>
+          
+         <input type="reset">
+         <br>
+         <input type="submit">
+
+
+        </form>
+
+<br><br>
+<hr>
+<br><br>
+<h3>Basic Form</h3>
+<br><br>
+
+<form action="">
+    <table>
+
+        <tr>
+            <td><label for="name">Name:</label></td>
+            <td> <input type="text" id="name" placeholder="Enter your name" maxlength="20" required></td>
+            
+        </tr>
+        <tr>
+            <td>  <label for="age">Age:</label></td>
+            <td> <input type="number" id="age" placeholder="Enter your age" required></td>
+            
+        </tr>
+        
+        <tr>
+      
+            <td><label for="email">Email:</label></td>
+            <td><input type="email" id="email" placeholder="Enter your mail" required><br></td>
+        </tr>
+        <tr>
+            <td><label for="phone">Phone:</label></td>
+            <td><input type="tel" id="phone" required></td>
+        </tr>
+        
+        
+        <tr>
+            <td><label for="Dob">DOB:</label></td>
+            <td>   <input type="date" id="Dob" required><br></td>
+        </tr>
+        
+        <tr>
+            <td><label for="quantity">Quantity:</label></td>
+            <td> <input type="number" id="quantity" min="0" max="99" value="1" required><br></td>
+        </tr>
+     
+        
+        
+       <tr>
+        <td><label for="gender">Gender:</label></td>
+        <td>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+
+              
+            <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+        <!-- <input type="radio" id="female" name="gender"> -->
+        
+        <input type="radio" id="other" name="gender">
+        <label for="other">Other</label>
+
+        </td>
+       </tr>
+        
+    <tr>
+        <td><label for="payment">Payment:</label></td>
+        <td>
+            <select name="" id="payment">
+                <option value="Gpay">Gpay</option>
+                <option value="Phonepay">Phonepay</option>
+                <option value="Paytm">Paytm</option>
+                
+            </select>
+
+        </td>
+    </tr>
+
+        <tr>
+            <td> <label for="checkbox">Check</label></td>
+            <td>  <input type="checkbox" id="checkbox"></td>
+        </tr>
+       
+       <tr>
+        <td> <label for="comment">Comment:</label></td>
+        <td><textarea name="" id="comment" rows="5" cols="25"></textarea></td>
+       
+        
+       </tr>
+       
+    <tr>
+        <td> <label for="file">Uplode file:</label></td>
+        <td> <input type="file" id="file" accept="image/png, image/jpg, image/jpeg"></td>
+    </tr>
+        
+       
+       
+        
+        <tr>
+            <td>
+                <input type="reset">
+                
+            </td>
+
+        </tr>
+
+        <tr>
+            <td>
+                <input type="submit">
+
+            </td>
+        </tr>
+        
+    </table>
+        
+    </form>
+    
+    
+    
+    
+    
+</body>
+
+</html>

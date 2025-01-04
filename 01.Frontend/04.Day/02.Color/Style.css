@@ -1,0 +1,22 @@
+body{
+    background-color:hsl(0, 0%, 11%)
+}
+#color{
+    color:white;
+}
+#colorlist{
+    background-color:bisque;
+
+}
+.name{
+    color:tomato;
+}
+.hexa{
+    color:#3412e0
+}
+.rgb{
+    color:rgb(82, 242, 14)
+}
+.hsl{
+     color:hsl(60, 86%, 20%);
+}

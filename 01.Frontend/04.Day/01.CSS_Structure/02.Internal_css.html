@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS</title>
+    <style>
+        body {
+            background-color: rgb(208, 145, 63);
+        }
+
+        h2 {
+            color: white;
+        }
+
+        .p1{
+            color: rgb(177, 55, 10);
+        }
+        .p2
+        {
+            color:blue;
+
+        }
+        #p3{
+            color:blueviolet;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <h2>Internal CSS</h2>
+
+    <p class="p1">
+        <!-- Internal CSS is a method of applying CSS styles directly within an HTML document by placing them inside a <style>tag within the <head> section -->
+        This method is useful for adding styles to a single page, especially for quick changes or when you want to avoid
+        modifying an external stylesheet.
+    </p>
+    <p class="p2">
+        Convenience: Easy to apply styles to a single page without creating a separate CSS file.
+    </p>
+
+    <p id="p3">
+        Overrides External Styles: Internal CSS can override styles defined in an external stylesheet, useful for
+        specific page customization.
+    </p>
+</body>
+
+</html>

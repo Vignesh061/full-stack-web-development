@@ -1,0 +1,23 @@
+h2
+{
+    font-family:verdana,arial;
+}
+.p1{
+    font-family:"lucida console","courier new";
+    font-size:1em;
+    /* font-size:1em; is = 100% */
+     /* 1.2em is = 120% */
+     /* 0.5em is = 50% */
+
+     font-weight:bold;
+     font-style:italic;
+
+}
+.googlefont{
+    font-family:Roboto;
+    font-size:1.2em;
+}
+.p3{
+font-family:Poppins;
+font-size:1.3em;
+}

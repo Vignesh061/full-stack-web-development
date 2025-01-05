@@ -1,0 +1,27 @@
+body{
+    margin:0px;
+    background-color:rgb(138, 207, 247);
+    color:white;
+}
+#over{
+    border:2px solid;
+    height: 80px;
+    margin-bottom: 57px;
+   
+}
+.visible{
+ overflow:visible;
+}
+.hidden{
+    overflow:hidden;
+}
+.clip{
+    overflow:clip;
+
+}
+.scroll{
+    overflow:scroll;
+}
+.auto{
+    overflow:auto;
+}

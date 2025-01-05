@@ -1,0 +1,31 @@
+body{
+    margin:0px;
+
+}
+
+.box{
+    border:5px solid green;
+    width:250px;
+    height:250px;
+    font-size:1.5em;
+    font-family:'Courier New', Courier, monospace;
+    font-style:italic;
+    text-align:center;
+    
+}
+#box1{
+    background-color:rgb(83, 252, 252);
+    /* margin-top:40px;
+    margin-bottom:  40px; */
+    /* margin:40px; */
+    margin-left:auto;
+}
+#box2{
+    background-color:rgb(229, 177, 115);
+    margin:auto;
+}
+#box3{ 
+    background-color:rgb(129, 131, 255);
+
+    margin:30px;
+}

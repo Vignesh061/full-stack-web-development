@@ -1,0 +1,70 @@
+.block{
+    background-color:aqua;
+    height:150px;
+    width:150px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:1.5em;
+    text-align:center;
+    display:block;
+
+}
+.span1{
+    background-color:hsl(36, 82%, 60%);
+    /*The height and width will work for span tag if the display property is block 
+     */
+    height:150px;
+    width:150px;
+    display:block;
+    font-size:1.5em;
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+
+
+
+.inline{
+    background-color:rgb(102, 102, 227);
+    /* the height and width is not working for display inline property  */
+    height:250px;
+    width:250px;
+    font: size 1.5em;
+    font-family:'Courier New', Courier, monospace;
+    text-align:center;
+    display:inline;
+}
+
+.span2{
+    background-color:violet;
+    /* The height and width is not working for dispaly inline property */
+    height:250px;
+    width:250px;
+    font: size 1.5em;
+    font-family:'Courier New', Courier, monospace;
+    text-align:center;
+    display:inline;
+}
+
+.inlineblock{
+    background-color:aquamarine;
+    /* The height and width will work for display property is inline block */
+    height:150px;
+    width:150px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:1.5em;
+    text-align:center;
+    display:inline-block;
+
+}
+
+.span3{
+    background-color:rgb(203, 129, 75);
+    height:150px;
+    width:150px;
+    font-size:1.5em;
+    font-family:'Times New Roman', Times, serif;
+    text-align:center;
+    display:inline-block;
+}

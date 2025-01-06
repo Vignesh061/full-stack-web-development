@@ -1,0 +1,35 @@
+h2::first-letter{
+    font-size:2em;
+    font-family:'Courier New', Courier, monospace;
+    font-style:italic;
+
+
+}
+p::first-line{
+    background-color:pink;
+
+}
+p::selection{
+    background-color:rgb(0, 255, 94);
+    color:rgb(246, 255, 0);
+}
+/* .fruit li::before{
+    content:"✔️";
+
+} */
+.apple::after{
+    content:"🍎";
+}
+.orange::after{
+    content:"🟠";
+
+}
+.banana::after{
+    content:"🍌";
+}
+.fruit li::marker{
+    content:"✔️";
+    /* color:rgb(255, 0, 0); */
+    font-size:1.2em;
+    color:rgb(255, 145, 0);
+}

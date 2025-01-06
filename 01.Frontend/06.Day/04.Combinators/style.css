@@ -1,0 +1,33 @@
+#container_D{
+    border:2px solid;
+
+}
+
+#container_D p{
+    background-color:rgb(146, 146, 255);
+
+}
+
+#container_c{
+    border:2px solid;
+
+
+}
+#container_c > p {
+    background-color:rgb(108, 204, 172);
+}
+
+#container_gs {
+    border:2px solid;
+
+}
+#container_gs ~ p{
+    background-color:rgb(253, 186, 137);
+}
+#container_as {
+    border:2px solid;
+
+}
+#container_as + p{
+    background-color:rgb(253, 186, 137);
+}

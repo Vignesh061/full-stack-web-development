@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinators</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- 
+    Combinators=explain the relationship between listed selectors
+                  = descented
+                > = child
+                ~ = general sibling
+                + = adjcent sibling
+
+                 -->
+    <h2>Combinators : Descented</h2>
+    <h3>The colored elements is Descented of a container</h3>
+    <div id="container_D">
+        <p>This is #1</p>
+        <p>This is #2</p>
+        <div>
+            <p>This is #3</p>
+        </div>
+    </div>
+
+    <div>
+        <p>This is #4</p>
+        <p>This is #5</p>
+    </div>
+<hr>
+
+
+
+    <h2>Combinators: Child</h2>
+    <h3>
+        The colored elements is Child of a container
+    </h3>
+    <div id="container_c">
+        <p>This is #1</p>
+        <p>This is #2</p>
+        <div>
+            <p>This is #3</p>
+        </div>
+    </div>
+
+    <div>
+        <p>This is #3</p>
+        <p>This is #4</p>
+    </div>
+
+    <hr>
+    <h2>Combinators: General Sibling</h2>
+    <h3>
+        The colored elements is General Sibling of a container
+    </h3>
+    <div id="container_gs">
+        <p>This is #1</p>
+        <p>This is #2</p>
+        <div>
+            <p>This is #3</p>
+        </div>
+    </div>
+
+    
+        <p>This is #4</p>
+        <p>This is #5</p>
+    
+        <hr>
+        <h2>Combinators: Adjcent Sibling</h2>
+        <h3>
+            The colored elements is General Sibling of a container
+        </h3>
+        
+        <div id="container_as">
+            <p>This is #1</p>
+            <p>This is #2</p>
+            <div>
+                <p>This is #3</p>
+            </div>
+        </div>
+    
+    
+            <p>This is #4</p>
+            <p>This is #5</p>
+        
+        
+            
+
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+a:link{
+    color:rgb(255, 64, 204)
+}
+a:hover{
+    font-size:1.1em;
+    color:rgb(0, 255, 170);
+}
+a:active{
+    font-size:1.1em;
+    color:rgb(255, 0, 0);
+}
+a:visited{
+    color:aqua;
+}
+
+li:hover{
+    background-color:rgb(255, 156, 121);
+
+}
+li:not(:hover){
+    background-color:gray;
+}
+#ltow li:nth-child(3n+1){
+/* #ltow li:nth-child(odd){ */
+/* #ltow li:nth-child(even){ */
+ /* #ltow li:nth-child(2n){ */
+ /* #ltow li:nth-child(4n){ */
+    background-color:rgb(135, 255, 255);
+}
+.greatting{
+    font-size:1.3em;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.greatting p{
+ background-color:rgb(170, 255, 170);
+ padding:12px;
+ display:none;
+}
+.greatting:hover p{
+    display:block;
+}

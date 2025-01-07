@@ -1,0 +1,49 @@
+*{
+    /* 
+    padding:0px; */
+    box-sizing:border-box;
+}
+body{
+    margin:0px;
+}
+.header{
+    text-align:center;
+    background-color:rgb(255, 255, 255);
+    padding:25px;
+
+}
+.navbar{
+    background-color:black;
+    padding:10px;
+    height:50px;
+}
+.aside{
+    width:20%;
+    float:left;
+    padding:10px;
+    
+}
+.section{
+    padding:10px;
+    float:left;
+    width:40%;
+
+}
+.artical{
+    width:30%;
+    float:left;
+}
+.footer{
+    background-color:gray;
+    /* height: 100px; */
+    display: block;
+    text-align:center;
+    padding:25px;
+    clear:both;
+
+}
+@media screen and (max-width:600px){
+    aside, section, article{
+        width:100%;
+    }
+}

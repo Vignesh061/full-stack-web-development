@@ -1,0 +1,21 @@
+#heading{
+    background-color:black;
+    color:white;
+    padding:5px;
+    margin:5px;
+}
+.container{
+    display:flex;
+    background-color:greenyellow;
+
+}
+.one{
+    flex-grow:1;
+}
+.two{
+    flex-grow:2;
+
+}
+.three{
+    flex-grow:3;
+}

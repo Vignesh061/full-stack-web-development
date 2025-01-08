@@ -1,0 +1,25 @@
+h3{
+
+    background-color:greenyellow;
+    padding:15px;
+    margin:5px;
+}
+.row{
+    /* background-color:yellowgreen;
+     */
+     display:flex;
+     flex-direction:row;
+}
+.row_reverse{
+    display:flex;
+    flex-direction:row-reverse;
+}
+.column{
+    display:flex;
+    flex-direction:column;
+}
+.column_reverse{
+    display:flex;
+    flex-direction:column-reverse;
+    
+}

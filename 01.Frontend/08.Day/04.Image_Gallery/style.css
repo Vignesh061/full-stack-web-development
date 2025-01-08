@@ -1,0 +1,136 @@
+body{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color:rgb(255, 255, 255);
+    margin-left:0px;
+    padding:0px;
+
+    
+    
+}
+header{
+    margin-top:90px;
+    margin-bottom:10px;
+    height:280px;
+    background-color:hsl(180, 100%, 96%);
+}
+/* .navbar2{
+    display:flex;
+} */
+.navbar2 ul li{
+    margin-top:25px;
+    list-style-type:none;
+    
+}
+.navbar2 ul li a{
+    text-decoration:none;
+    color:hsl(0, 0%, 45%);
+
+}
+.navbar2 ul li a:hover{
+    color:black;
+}
+.navbar2 ul{
+    display:flex;
+    justify-content:space-between;
+    width:80%;
+}
+.navbar1 .heading1{
+    font-size:1.5em;
+    padding:20px;
+}
+
+/* .navbar{
+    text-align:center;
+    background-color:hsl(180, 41%, 95%);
+    height:250px;
+    
+    margin-bottom:100px;
+}
+i{
+    padding-top:5px;
+    padding-right:5px;
+   
+
+}
+.heading{
+    color:rgb(0, 0, 0);
+    font-size:2.5em;
+    text-align:left;
+    
+    
+    display:flex;
+
+
+}
+.navbar ul{
+   
+display:flex;
+justify-content:space-around;
+
+}
+.navbar ul li {
+    padding:5px;
+    
+    list-style-type: none ;
+    text-decoration:none;
+
+}
+.navbar ul li a {
+    
+    font-size:1.5em;
+    text-decoration:none;
+    color:black;
+} */
+ main{
+    margin-top:80px;
+    margin-left:100px;
+ }
+img{
+    width:200px;
+    height:300px;
+}
+.container div{
+    width:200px;
+    padding:10px;
+    flex-basis: 23%;
+    flex-grow:1;
+    justify-content:center;
+    /* padding-left:50px; */
+}
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    padding:10px;
+    /* flex-basis: 20%;
+    flex-basis:1; */
+}
+   .footer-div{
+    background-color:black;
+    height:380px;
+    text-align:center;
+    padding-top:90px;
+    padding-bottom:70px;
+    margin-top:150px;
+   }
+   .footer-div p{
+    color:hsl(0, 0%, 61%);
+
+    
+   }
+   .footer-div img{
+    width:200px;
+    height:130px;
+    
+   }
+   .footer-div a{
+    text-decoration:none;
+    color:rgb(216, 216, 216);
+   }
+   .footer-div a:hover{
+    color:rgb(169, 169, 169);
+   }
+
+   
+    

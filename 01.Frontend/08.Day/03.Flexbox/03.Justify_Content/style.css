@@ -1,0 +1,40 @@
+h3{
+background-color:black;
+color:white;
+padding:10px;
+margin:5px;
+}
+
+.center{
+    background-color:greenyellow;
+    display:flex;
+    justify-content:center;
+
+}
+.flex_start{
+    background-color:greenyellow;
+    display:flex;
+    justify-content:flex-start;
+
+}
+.flex_end{
+    background-color:greenyellow;
+    display:flex;
+    justify-content:flex-end;
+}
+.space_around{
+    background-color:greenyellow;
+    display:flex;
+    justify-content:space-around;
+
+}
+.space_between{
+    background-color:greenyellow;
+    display:flex;
+    justify-content:space-between;
+}
+.space_evenly{
+    background-color:greenyellow;
+    display:flex;
+    justify-content:space-evenly;
+}

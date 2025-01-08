@@ -1,0 +1,36 @@
+.icons{
+    text-align:center;
+
+}
+.icons a{
+    text-decoration:none;
+    margin:15px;
+
+}
+
+.fa-brands.fa-linkedin.fa-5x{
+    color:hsl(210, 90%, 53%);
+}
+.fa-brands.fa-linkedin.fa-5x:hover{
+    color:hsl(209, 77%, 46%);
+}
+.fa-brands.fa-hackerrank.fa-5x{
+    color:hsl(120, 90%, 45%);
+}
+.fa-brands.fa-hackerrank.fa-5x:hover{
+    color:hsl(120, 90%, 54%);
+}
+.fa-brands.fa-github.fa-5x{
+    background-color:black;
+    color:white;
+}
+.fa-brands.fa-github.fa-5x:hover{
+    background-color:rgb(75, 74, 74);
+    color:white;
+}
+.fa-brands.fa-youtube.fa-5x{
+    color:hsl(0, 100%, 52%);
+}
+.fa-brands.fa-youtube.fa-5x:hover{
+    color:hsl(2, 100%, 40%);
+}

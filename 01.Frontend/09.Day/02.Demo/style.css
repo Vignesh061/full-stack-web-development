@@ -1,0 +1,25 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.div1{
+    margin:10px;
+    border:3px solid;
+    display:flow-root;
+}
+.div1 img{
+    height:250px;
+    width:250px;
+    padding:10px;
+    float:left;
+}
+.div1 p{
+    margin:25px;
+    
+}
+@media screen and (max-width:600px){
+    .div1 img{
+        float:none;
+        /* padding-left:80px; */
+    }
+}

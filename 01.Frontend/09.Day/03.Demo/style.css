@@ -1,0 +1,35 @@
+.container{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+.one{
+    background-color:yellow;
+    margin: 5px;
+    height:100px;
+    flex-basis:20%;
+}
+@media screen and (max-width:900px)
+{
+    .one{
+        flex-basis:40%;
+    }
+    #one{
+        background-color:palegoldenrod;
+    }
+    #two{
+        background-color:red;
+
+    }
+    #three {
+        background-color:rgb(0, 247, 255);
+    }
+    #four{
+        background-color:blueviolet;
+    }
+}
+@media screen and (max-width:640px){
+    .one{
+        flex-basis:80%;
+    }
+} 

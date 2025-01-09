@@ -1,0 +1,75 @@
+@media screen and (max-width:1400px)
+{
+
+.max-width{
+    background-color:yellow;
+    height:50px;
+
+}}
+@media screen and (max-width:900px)
+{
+    .max-width{
+        background-color:green;
+        height:50px;
+    }
+} 
+@media screen and (max-width:600px)
+{
+    .max-width{
+        background-color:blue;
+        height:50px;
+    }
+
+}
+div{
+    margin-top:50px;
+}
+@media screen and (max-width:1200px)
+{
+    .demo{
+        background-color:hsl(293, 100%, 63%);
+        height:50px;
+    }
+
+}
+@media screen and (max-width:900px)
+{
+    .demo{
+        background-color:orange;
+        height:50px;
+    }
+}
+@media screen and (max-width:600px)
+{
+    .demo{
+        background-color:hsl(6, 100%, 50%);
+        height:50px;
+
+    }
+}
+
+@media screen and (min-width:10px)
+
+{
+    .min-width{
+
+        background-color:gold;
+        height:50px;
+    }
+}
+@media screen and (min-width:800px)
+{
+    .min-width{
+
+        background-color:rebeccapurple;
+        height:50px;
+    }
+
+}
+@media screen and (min-width:1200px)
+{
+    .min-width{
+        background-color:brown;
+        height:50px;
+    }
+}

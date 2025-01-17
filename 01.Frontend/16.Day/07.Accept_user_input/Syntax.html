@@ -1,0 +1,39 @@
+<!-- //How to accept user input
+
+1.Easy way = window prompt
+2.Professional way = Html textbox
+
+1.Syntax for, Easy Way
+let userInput = prompt("Enter your input:");
+
+// Example -->
+
+<script>
+    
+    let name = prompt("What is your name?");
+    console.log("Hello, " + name + "!");
+</script>
+
+<!-- 2. Professional Way: Using an HTML Textbox
+You can use an HTML textbox and JavaScript to get user input more professionally. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Input Example</title>
+</head>
+<body>
+  <label for="userInput">Enter your input:</label>
+  <input type="text" id="userInput" placeholder="Type here">
+  <button onclick="getInput()">Submit</button>
+
+  <script>
+    function getInput() {
+      let userInput = document.getElementById("userInput").value;
+      console.log("User input:", userInput);
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+   
+
+
+}
+.container{
+    display:flex; 
+    text-align:center;
+    justify-content:center;     
+     
+     
+}
+#mybutton{
+    padding:12px 24px;
+
+    margin-top:100px;
+    font-size:1.3em; 
+}
+#mylabel{
+    text-align: center;
+    font-size:1.3em;
+    display:block;
+
+}

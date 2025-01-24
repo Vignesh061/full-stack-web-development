@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    margin-top: 200px;
+    font-size:1.7em;
+}
+
+button{
+    font-size: 1.3em;
+    padding: 10px 23px;
+}
+button:hover{
+    background-color:rgb(174, 174, 255);
+    color:white; 
+}

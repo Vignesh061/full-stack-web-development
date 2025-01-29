@@ -69,5 +69,10 @@ else{
  console.log(phoneno.replaceAll("-",""));
 
  //padstart(n,what ") method is used to what need to padding in n times
- let p="12434345"
-console.log(p.padStart(7,"3"));
+ //padstart(n,"what ") method is used to what need to padding in n times fornt
+ 
+console.log(phoneno.padStart(13,"3"));
+console.log(phoneno.padStart(15, "3"));
+
+//padend(n,"what") method is used to what is need to padding in n times at end
+console.log(phoneno.padEnd(22,"0"));

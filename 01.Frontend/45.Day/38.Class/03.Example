@@ -1,0 +1,14 @@
+class Person {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    greet() {
+        console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+    }
+}
+
+// Creating an object
+const person1 = new Person("Vignesh", 21);
+person1.greet(); // Output: Hello, my name is Vignesh and I am 21 years old.

@@ -1,0 +1,29 @@
+body{
+    display:flex;
+    margin:0px;
+    padding:0px;
+    width:100%;
+    height:100vh;
+    justify-content:center;
+    align-items:center;
+}
+.box{
+    width:200px;
+    height:200px;
+    background-color:hsl(120, 100%, 25%);
+    transition:1s;
+}
+.box:hover{
+    cursor:pointer;
+    height:400px;
+    width:400px;
+    background-color:hsl(180, 100%, 50%);
+    border-radius:50%;
+
+    /*Syntax
+        transition: property duration timing-function delay;
+    */
+      
+    transition:1s;
+}
+

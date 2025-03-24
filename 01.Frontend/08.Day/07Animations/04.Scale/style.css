@@ -1,0 +1,78 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+h2{
+    Padding-top:5vh;
+    padding-left:5vh;
+}
+.box {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.xs,.nxs,.ys,.nys,.zs {
+    display:flex;
+    width: 200px;
+    height: 200px;
+    justify-content:center;
+    align-items:center;
+    transition:1s;
+    font-family:'Times New Roman', Times, serif;
+    font-size:1.5em;
+    transition:1s;
+}
+.xs{
+
+    background-color: aqua;
+}
+
+.xs:hover{
+    cursor:pointer;
+    transition:1s;
+    transform:scaleX(3);
+
+}
+
+.nxs{
+    background-color:rgb(159, 210, 255);
+}
+
+.nxs:hover{
+    cursor:pointer;
+    transition:1s;
+    transform:scaleX(-3)
+
+}
+.ys{
+    
+    background-color:aquamarine;
+}
+
+.ys:hover{
+    cursor:pointer;
+    transition:1s;
+    transform:scaleY(3);
+}
+.nys{
+    background-color:rgb(255, 255, 166);
+}
+
+.nys:hover{
+    cursor:pointer;
+    transition:1s;
+    transform:scaleY(-3);
+}
+.zs{
+    background-color:rgb(205, 77, 77);
+}
+.zs:hover{
+    cursor:pointer;
+    transition: 1s;
+    transform:scale(2,2);
+}

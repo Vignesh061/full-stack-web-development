@@ -7,4 +7,3 @@ let color = [11,12,13,14,15];
 console.log(firstnumber)
 console.log(secondnumber)
 console.log(thirdnumber)
-console.log(othernumbers)
